@@ -15,7 +15,7 @@ pipeline {
 
             steps {
 
-                bat 'pip install -r requirements.txt'
+                bat '"C:\\Users\\Satyam\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m pip install -r requirements.txt'
             }
         }
 
@@ -23,7 +23,7 @@ pipeline {
 
             steps {
 
-                bat 'python train.py'
+                bat '"C:\\Users\\Satyam\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" train.py'
             }
         }
 
