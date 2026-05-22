@@ -7,8 +7,7 @@ pipeline {
         stage('Clone Repository') {
 
             steps {
-
-                git 'https://github.com/Sotus12/resume-screening-system.git'
+                git branch: 'main', url: 'https://github.com/Sotus12/resume-screening-system.git'
             }
         }
 
