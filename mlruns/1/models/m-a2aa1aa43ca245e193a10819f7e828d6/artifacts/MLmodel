@@ -1,0 +1,23 @@
+artifact_path: file:C:/SOFTWARE/DEVEOPS/code/resume-screening-system/mlruns/1/models/m-a2aa1aa43ca245e193a10819f7e828d6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-a2aa1aa43ca245e193a10819f7e828d6
+model_size_bytes: 961195
+model_uuid: m-a2aa1aa43ca245e193a10819f7e828d6
+prompts: null
+run_id: fedac2f6ef924c8ba45283de11e61b37
+utc_time_created: '2026-05-10 07:08:08.124317'
